@@ -14,4 +14,5 @@
 | Name | Description |
 |------|-------------|
 | vpc_network_self_link | VPC selflink |
+| vpc_network_id | The identifier with the format `projects/{{project}}/global/networks/{{name}}`|
 
