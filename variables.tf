@@ -22,11 +22,11 @@ variable "routing_mode" {
 variable "autocreate_subnetworks" {
   type        = bool
   description = "Allow the automatic creation of subnetworks"
-  default     = {false}
+  default     = false
 }
 
 variable "mtu" {
   type        = string
-  description = "VPC's MTU"
-  default     = {1460}
+  description = "VPCs MTU"
+  default     = 1460
 }
