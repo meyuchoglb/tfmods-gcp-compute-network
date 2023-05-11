@@ -1,6 +1,6 @@
 # tfmods-gcp-compute-network
 
-# Inputs
+### Inputs
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|----------|
 | project_id | The GCP Project ID. | `string` || yes |
@@ -10,11 +10,8 @@
 | mtu | The GCP Project ID. | `string` | 1460 | yes |
 
 
-
-
-Outputs:
-
-
-
-Example:
+### Outputs
+| Name | Description |
+|------|-------------|
+| vpc_network_self_link | VPC selflink |
 
